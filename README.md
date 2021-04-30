@@ -3,7 +3,7 @@
 ![preview1](preview1.png)
 ![preview2](preview2.png)
 
-A minimum example of [three.js particle system](https://threejs.org/examples/?=interactive#webgl_interactive_points) for easy visualization of feature vectors and its metadata (Up to roughly 3 million points with MacBookPro 2019). In this example, feature vectors of a word2vec model was used with its words as metadata ([UMAP](https://arxiv.org/abs/1802.03426)-compressed [Japanese word2vec model](http://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/)) Replace ./data/data.module.js to visualize your data.
+A simple visualization of feature vectors and its metadata (Up to roughly 3 million points with MacBookPro 2019). In this example, feature vectors of a word2vec model was used with its words as metadata ([UMAP](https://arxiv.org/abs/1802.03426)-compressed [Japanese word2vec model](http://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/)) Replace ./data/data.module.js to visualize your data.
 
 ./data/data.module.js
 ```
