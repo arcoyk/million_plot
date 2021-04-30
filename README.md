@@ -1,10 +1,9 @@
-# million_plot
-An example of million interactive points plot using three.js particle system for easy visualization of word2vec models.
+# Million Plot
 
 ![preview1](preview1.png)
 ![preview2](preview2.png)
 
-Visualizing ./data/data.modul.js with simple version of [three.js interactive particle example](https://threejs.org/examples/?=interactive#webgl_interactive_points).
+An example of [three.js particle system](https://threejs.org/examples/?=interactive#webgl_interactive_points) for easy visualization of feature vectors and its metadata. In this example, feature vectors of a word2vec model was used with its words as metadata. Replace ./data/data.module.js to visualize your data.
 
 ./data/data.module.js
 ```
@@ -17,9 +16,9 @@ export {Data}
 ws = words
 vs = vectors
 
-words and vectors must be corresponding. e.g. the point of "dog" appears at (x, y) = (10.32, 42.234) on the example above. Label appears with mouse hover.
+words and vectors must be corresponding. e.g. the point of "dog" appears at (x, y) = (10.32, 42.234) on the example above. The label appears with mouse hover.
 
 You can edit this file to change the visualizing data. In this example, data.module.js is [UMAP](https://arxiv.org/abs/1802.03426)-compressed [Japanese word2vec model](http://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/). 
 
 # Why?
-This is a part conversation visualization program. You can easily create interactive visualization systems for feature vectors too. For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). 
+This is a part conversation visualization program. You can easily create interactive visualization systems for feature vectors too. For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). For more advanced visualization, see [Arts & Culture Experiment](https://artsexperiments.withgoogle.com/freefall).
