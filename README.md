@@ -18,7 +18,5 @@ vs = vectors
 
 words and vectors must be corresponding. e.g. the point of "dog" appears at (x, y) = (10.32, 42.234) on the example above. The label appears with mouse hover.
 
-You can edit this file to change the visualizing data. In this example, data.module.js is 
-
 # Why?
-This is a part conversation visualization program. You can easily create interactive visualization systems for feature vectors too. For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). For more advanced visualization, see [Arts & Culture Experiment](https://artsexperiments.withgoogle.com/freefall).
+You can easily create interactive visualization systems for feature vectors . For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). For more advanced visualization, see [Arts & Culture Experiment](https://artsexperiments.withgoogle.com/freefall).
