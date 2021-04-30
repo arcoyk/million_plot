@@ -18,7 +18,7 @@
 			void main() {
 				vColor = customColor;
 				vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-				gl_PointSize = max(3.2, size * ( 300.0 / -mvPosition.z ));
+				gl_PointSize = max(0.5, size * ( 300.0 / -mvPosition.z ));
 				gl_Position = projectionMatrix * mvPosition;
 			}
 		</script>
@@ -43,7 +43,7 @@
 
 			let renderer, scene, camera, controls, stats;
 			let particles;
-			const PARTICLE_SIZE = 20;
+			const PARTICLE_SIZE = 2;
 			let raycaster, intersects;
 			let pointer, INTERSECTED;
 			let mouse = {x: 0, y: 0};
@@ -106,7 +106,7 @@
 					},
 					vertexShader: document.getElementById( 'vertexshader' ).textContent,
 					fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
-					alphaTest: 0.9
+					alphaTest: 0.6
 				} );
 
 				particles = new THREE.Points( geometry, material );
