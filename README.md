@@ -4,7 +4,7 @@ An example of million interactive points plot using three.js particle system for
 ![preview1](preview1.png)
 ![preview2](preview2.png)
 
-Visualizing ./data/data.modul.js using [three.js interactive particle example](https://threejs.org/examples/?=interactive#webgl_interactive_points).
+Visualizing ./data/data.modul.js with simple version of [three.js interactive particle example](https://threejs.org/examples/?=interactive#webgl_interactive_points).
 
 ./data/data.module.js
 ```
@@ -22,5 +22,4 @@ words and vectors must be corresponding. e.g. the point of "dog" appears at (x, 
 You can edit this file to change the visualizing data. In this example, data.module.js is [UMAP](https://arxiv.org/abs/1802.03426)-compressed [Japanese word2vec model](http://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/). 
 
 # Why?
-
-This is convenient to grasp characteristic of word2vec models.
+This is a part conversation visualization program. You can easily create interactive visualization systems for feature vectors too. For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). 
