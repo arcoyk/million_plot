@@ -156,12 +156,12 @@
             			console.log(INTERSECTED);
 						console.log(Data.ws[INTERSECTED]);
 						showLabel(Data.ws[INTERSECTED]);
-						attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE * 1.25;
-						attributes.size.needsUpdate = true;
+						// attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE * 1.25;
+						// attributes.size.needsUpdate = true;
 					}
 				} else if ( INTERSECTED !== null ) {
-					attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE;
-					attributes.size.needsUpdate = true;
+					// attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE;
+					// attributes.size.needsUpdate = true;
 					INTERSECTED = null;
 				}
 				renderer.render( scene, camera );
