@@ -20,4 +20,4 @@ vs = vectors
 words and vectors must be corresponding. e.g. the point of "dog" appears at (x, y) = (10.32, 42.234) on the example above. The label appears with mouse hover.
 
 # Why?
-You can easily create interactive visualization systems for feature vectors using this repo. For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). For more advanced visualization, see [Arts & Culture Experiment](https://artsexperiments.withgoogle.com/freefall).
+You can easily create interactive visualization systems for feature vectors using this repo. For simple visualization purpose, consider using [Embedding Projector](https://projector.tensorflow.org/). For more advanced visualization, see [Arts & Culture Experiment](https://artsexperiments.withgoogle.com/freefall). For more fewer points / coding consider using [p5.js](https://p5js.org/examples/form-points-and-lines.html). If you're looking for some graphs [D3.js](https://observablehq.com/@d3/scatterplot-matrix).
